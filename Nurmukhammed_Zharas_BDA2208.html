@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <title>Responsive Website Food</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/your_font_awesome_key.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="l-header" id="header">
+    <nav class="nav bd-container">
+      <a href="#" class="nav__logo">Tasty</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+          <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="l-main">
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home__container bd-container bd-grid">
+        <div class="home__data">
+          <h1 class="home__title">Tasty Food</h1>
+          <h2 class="home__subtitle">Try the best food of the week.</h2>
+          <a href="#" class="button">View Menu</a>
+        </div>
+        <img src="assets/img/home.png" alt="" class="home__img">
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section bd-container" id="about">
+      <div class="about__container bd-grid">
+        <div class="about__data">
+          <span class="section-subtitle about__initial">About Us</span>
+          <h2 class="section-title about__initial">We Cook the Best Tasty Food</h2>
+          <p class="about__description">We cook the best food in the entire city, offering excellent customer service, delicious meals, and the best prices. Visit us today.</p>
+          <a href="#" class="button">Explore Our History</a>
+        </div>
+        <img src="assets/img/about.jpg" alt="" class="about__img">
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section bd-container" id="services">
+      <span class="section-subtitle">What We Offer</span>
+      <h2 class="section-title">Our Amazing Services</h2>
+      <div class="services__container bd-grid">
+        <div class="services__content">
+          <i class="fas fa-utensils services__icon"></i>
+          <h3 class="services__title">Quality Food</h3>
+          <p class="services__description">We provide high-quality, fresh, and delicious food for our customers.</p>
+        </div>
+        <div class="services__content">
+          <i class="fas fa-clock services__icon"></i>
+          <h3 class="services__title">Fast Delivery</h3>
+          <p class="services__description">We ensure quick and efficient delivery of your food to your doorstep.</p>
+        </div>
+        <div class="services__content">
+          <i class="fas fa-mug-hot services__icon"></i>
+          <h3 class="services__title">Relaxing Environment</h3>
+          <p class="services__description">Enjoy your food in our cozy and relaxing restaurant environment.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu section bd-container" id="menu">
+      <span class="section-subtitle">Discover</span>
+      <h2 class="section-title">Our Menu</h2>
+      <div class="menu__container bd-grid">
+        <div class="menu__content">
+          <img src="assets/img/menu1.jpg" alt="" class="menu__img">
+          <h3 class="menu__name">Delicious Food</h3>
+          <span class="menu__detail">Spicy Noodles</span>
+          <span class="menu__preci">$16.99</span>
+          <a href="#" class="button menu__button">Order Now</a>
+        </div>
+        <div class="menu__content">
+          <img src="assets/img/menu2.jpg" alt="" class="menu__img">
+          <h3 class="menu__name">Healthy Salads</h3>
+          <span class="menu__detail">Greek Salad</span>
+          <span class="menu__preci">$12.99</span>
+          <a href="#" class="button menu__button">Order Now</a>
+        </div>
+        <div class="menu__content">
+          <img src="assets/img/menu3.jpg" alt="" class="menu__img">
+          <h3 class="menu__name">Tasty Burgers</h3>
+          <span class="menu__detail">Cheeseburger</span>
+          <span class="menu__preci">$9.99</span>
+          <a href="#" class="button menu__button">Order Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section bd-container" id="contact">
+      <div class="contact__container bd-grid">
+        <div class="contact__data">
+          <span class="section-subtitle contact__initial">Contact Us</span>
+          <h2 class="section-title contact__initial">We are here to serve you</h2>
+          <p class="contact__description">Contact us now to make your reservation or for any inquiries.</p>
+          <div class="contact__info">
+            <div>
+              <i class="bx bx-location-plus contact__icon"></i>
+              <span class="contact__info-title">Address</span>
+              <p class="contact__info-text">123 Main St, City, Country</p>
+            </div>
+            <div>
+              <i class="bx bx-phone contact__icon"></i>
+              <span class="contact__info-title">Phone</span>
+              <p class="contact__info-text">+123 456 789</p>
+            </div>
+            <div>
+              <i class="bx bx-envelope contact__icon"></i>
+              <span class="contact__info-title">Email</span>
+              <p class="contact__info-text">info@tastyfood.com</p>
+            </div>
+          </div>
+        </div>
+        <form action="#" class="contact__form">
+          <input type="text" placeholder="Name" class="contact__input">
+          <input type="email" placeholder="Email" class="contact__input">
+          <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+          <input type="submit" value="Send Message" class="button contact__button">
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer section bd-container">
+    <div class="footer__container bd-grid">
+      <div class="footer__content">
+        <a href="#" class="footer__logo">Tasty</a>
+        <span class="footer__description">Restaurant</span>
+        <div>
+          <a href="#" class="footer__social"><i class="fab fa-facebook-square"></i></a>
+          <a href="#" class="footer__social"><i class="fab fa-instagram-square"></i></a>
+          <a href="#" class="footer__social"><i class="fab fa-twitter-square"></i></a>
+        </div>
+      </div>
+      <div class="footer__content">
+        <h3 class="footer__title">Services</h3>
+        <ul>
+          <li><a href="#" class="footer__link">Delivery</a></li>
+          <li><a href="#" class="footer__link">Pricing</a></li>
+          <li><a href="#" class="footer__link">Reserve your spot</a></li>
+          <li><a href="#" class="footer__link">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer__content">
+        <h3 class="footer__title">Information</h3>
+        <ul>
+          <li><a href="#" class="footer__link">About us</a></li>
+          <li><a href="#" class="footer__link">Contact us</a></li>
+          <li><a href="#" class="footer__link">Terms of Services</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer__copy">&#169; 2023 Tasty. All rights reserved.</p>
+  </footer>
+
+  <!-- Script for Navigation Toggle -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
