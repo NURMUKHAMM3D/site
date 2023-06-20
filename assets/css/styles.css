@@ -618,19 +618,29 @@ img{
   background-color: #45a049;
 }
 
-/* Styles for the play button */
-.play-button {
-  width: 100px;
-  height: 100px;
-  background-color: #eaeaea;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
+.play-o {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 22px;
+  height: 22px;
+  border: 2px solid;
+  border-radius: 20px;
 }
 
-.play-button::before {
-  content: '\25B6';
-  font-size: 40px;
+.play-o::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 0;
+  height: 10px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 6px solid;
+  top: 4px;
+  left: 7px;
 }
+
+
